@@ -1,0 +1,176 @@
+.abm-msg-info { margin-bottom: 1em; }
+
+.abm-msg-ok  
+{ 
+	margin: 2em 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #2F9100;
+	font-weight: bold;
+
+}
+
+.abm-msg-confirmar {}
+
+.abm-error-screen { font-weight: bold; color: red; margin-top: 1em; }
+
+.abm-query-fposicion { vertical-align: top; }
+
+#abm-query-filtros { padding-bottom: 1em; }
+
+/* Los íconos de acciones a nivel de registros en las grillas */
+A.abm-action-item { padding-right: 3px; padding-left: 3px; }
+
+.abm-boton 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color:#BECF42;
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #A3B9D1;
+	font-weight: bold;
+}
+
+.abm-btn-ok
+{
+	background-color: #2299FF;
+	border-color: #117799; 
+	color: #FFFFFF;
+}
+
+.abm-btn-return
+{
+	background-color: #00AA00;
+	border-color: #00AA00; 
+	color: #FFFFFF;
+}
+
+.abm-btn-alta
+{
+	background-color: #666666;
+	border-color: #666666;
+	color: #FFFFFF;
+}
+	
+
+.abm-combo
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #333333;
+	margin: 0px;
+}
+.abm-grande
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #333333;
+	margin: 0px;
+}
+
+.abm-textarea
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #333333;
+	margin: 0px;
+	border: 1px solid #C4D2E2;	
+}
+
+.abm-lnk-action
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	background-color:#DDDDDD;
+	padding: 0.1em 1em; 
+	color: #333333;
+	border: 1px solid #CCC;
+	font-weight: bold;
+	text-decoration: none; 	
+}
+.abm-lnk-action:hover { background-color: #CCCCCC; }
+
+/* ------------------------------ Grilla --------------------------------------------- */
+
+.abm-grid TD {
+	padding-left: 0.2em; padding-right: 0.2em;
+}
+.abm-grid TR {
+	height: 18px;
+	font-family: Verdana;
+	font-size: 12px;
+}
+.abm-grid TH {
+	height: 20px;
+	background-color: #666666;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	color: #FFFFFF;
+}
+
+TR.abm-grid-par   {
+	background-color: #999999;
+}
+TR.abm-grid-impar {
+	background-color: #E6E6E6;
+}
+
+TR.abm-grid-footer table { padding-top: 10px; }
+
+.abm-grid-flechas { vertical-align: top; }
+.abm-grid-flechas A { text-decoration: none; padding: 5px; border: 1px solid #5C83A9; color: #5C83A9; }
+.abm-grid-flechas A:hover {	color: white; background-color:  #5C83A9; }
+.abm-grid-flechas span { color: #5C83A9; padding: 5px; }
+
+/* ------------------------------ Pantalla de VIEW --------------------------------------------- */
+
+/*
+ * Los grupos de campos se agrupan en columnas para separarlos en la página.  
+ */
+TD.abm-view-grp-col { vertical-align: top; padding-right: 2em; }
+
+/* 
+ * Cada grupo de campos es una tabla. La 1er. fila es el título y cada otra fila (de 2 columnas) es un campo y su valor 
+ */
+TABLE.abm-view-grupo	{ border: 1px solid #CFD0D1; margin-bottom: 1em; }
+TD.abm-view-grp-head	{ 
+	font-family: Verdana, Arial; font-size: 12px; color: #000; 
+	background-color: #F2F2F2;font-weight: bold;
+	padding: 3px; border-bottom: 1px solid #CFD0D1;
+}
+TD.abm-view-grp-key		{ font-family: Verdana, Arial; font-weight: bold; padding: 2px; padding-right: 2em; }
+TD.abm-view-grp-value	{ font-family: Verdana, Arial; color: #515151; padding: 2px; }
+
+
+/*
+ * Los tabs se renderean como una lista (UL), donde cada ítem es un LI y el seleccionado además tiene la clase SELECTED. 
+ */
+DIV.abm-view-tabs UL {
+  border-bottom: 1px solid #A2B8D1;
+  margin: 1em 0; padding-left: 0; padding-bottom: 3px; 
+  font-family: Verdana, Arial; font-size: 12px; color: #000000;
+}
+DIV.abm-view-tabs LI {
+  display: inline;
+  border: 1px solid #A2B8D1; 
+  margin-right: 3px; padding: 3px 10px;
+  background-color: #FFFFFF;
+}
+DIV.abm-view-tabs LI A { text-decoration: none; }
+DIV.abm-view-tabs LI.selected	{ background-color: #C5D2E0; }
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* lista de opciones en una pantalla OptionScreen */
+TABLE.abm-option-list TR { height: 2em; vertical-align: middle; }
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+TABLE.abm-info {
+	margin: 30px 0px; 
+}
+TABLE.abm-info TD.abm-key {
+	padding-right: 2em; 
+	font-weight: bold; 
+}

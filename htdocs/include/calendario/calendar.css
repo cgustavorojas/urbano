@@ -1,0 +1,65 @@
+
+   
+    
+.calendar {
+	background-color:#D1E4FA;
+	border-bottom-color:#333366;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-left-color:#333366;
+	border-left-style:solid;
+	border-left-width:2px;
+	border-right-color:#333366;
+	border-right-style:solid;
+	border-right-width:2px;
+	border-top-color:#333366;
+	border-top-style:solid;
+	border-top-width:2px;
+	padding-bottom:15px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:15px;
+}
+
+.date {
+	background-color:#7C9BBA;
+	color:#143465;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	/*font-weight: bold;*/
+}
+
+.titulo {
+	
+background-color: rgb(20, 52, 101);
+color:#FFFFFF;
+font-family:Arial,Helvetica,sans-serif;
+font-size:14px;
+
+}
+
+.empty {
+	background-color:#7C9BBA;
+}
+
+.empty_end{
+	background-color:#D1E4FA;
+}
+
+.selected {
+	background-color:#FFFFFF;
+	color:#143465;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	/*font-weight: bold;*/
+}
+
+.formulario_combo {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #333333;
+	margin: 0px;
+	border: 1px solid #C4D2E2;
+}
+    
